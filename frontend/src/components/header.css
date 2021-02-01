@@ -1,0 +1,20 @@
+.bg-azul {
+    background-color:  #00d2c4;
+    font-style: #ffffff;
+}
+
+.logoHeader {
+    max-height: 100px;
+};
+.nav-link{
+    font-weight: 800;
+    font-size: 50pt;
+}
+@media (min-width: 800px) {
+    .logoHeader {
+        max-height: 100px;
+    };
+    .navls{
+        font-weight: 800;
+    }
+}
