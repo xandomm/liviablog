@@ -1,0 +1,72 @@
+.apresentacao{
+    background-color: #00d2c4;
+    display: flex;
+ 
+   
+
+}
+
+.butao{
+    background-color: #ff848c;
+    color: white;
+    padding-bottom: -20px;
+}
+@media(min-width: 800px){
+    .primeiralogo{
+        display: flex;
+    
+        width: 50%;
+        flex-grow: 1
+    }
+    .alinhar {
+        margin-top: 200px;
+    }
+    .primeiralogo img{
+        display: flex;
+        justify-content: start;
+        width: 50%;
+        flex-grow: 1
+    }
+    .segundalogo{
+        display: flex;
+        width: 50%;
+        flex-grow:1;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        color: #00d2c4;
+    }
+    .segundalogo h1{ 
+        color: #00d3c4;
+        font-weight: 600;
+        letter-spacing:2px
+  
+    }
+    .segundalogo Paper{ padding: 20px ;
+      margin-right: 20px;
+  
+    }
+    .segundalogo p{ padding: 20px ;
+        color: #00d2c4;
+        font-size: 20pt;
+    }
+}
+@media(max-width: 800px){
+    .primeiralogo{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .apresentacao{
+        flex-direction: column;
+    }
+    .primeiralogo img{
+      
+        justify-content: center;
+     
+    }
+    .segundalogo{
+        
+       
+        font-family: 'Bebas Neue', cursive;
+    }
+}

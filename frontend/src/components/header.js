@@ -6,25 +6,27 @@ export default ()=>{
         <div>
             <nav class="navbar navbar-expand-lg navbar-dark bg-azul">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src={logob} className="logoHeader"></img></a>
+    <div className="logoh">
+    <a class="navbar-brand" href="#"><img src={logob} className="logoHeader"></img></a></div>
+    <div className="logoh2">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse Header-l" id="navbarNavDropdown">
       <ul class="navbar-nav Header-l">
         <li class="nav-item navls">
-          <a class="nav-link active navls" aria-current="page" href="#"><h3>HOME</h3></a>
+          <a class="nav-link active navls" aria-current="page" href="#"><h5>HOME</h5></a>
         </li>
         <li class="nav-item navls">
-          <a class="nav-link" href="#"><h3>BLOG</h3></a>
+          <a class="nav-link" href="#"><h5>BLOG</h5></a>
         </li>
         <li class="nav-item navls">
-          <a class="nav-link" href="#"><h3>QUEM SOMOS NÓS</h3></a>
+          <a class="nav-link" href="#"><h5>QUEM SOMOS NÓS</h5></a>
         </li>
         <li class="nav-item dropdown">
 
           <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" >
-          <h3>NOSSOS SERVIÇOS</h3>
+          <h5>NOSSOS SERVIÇOS</h5>
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="#">CONSULTORIA PESSOAL</a></li>
@@ -33,7 +35,7 @@ export default ()=>{
           </ul>
         </li>
       </ul>
-    </div>
+    </div></div>
   </div>
 </nav>
         </div>
