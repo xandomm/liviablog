@@ -1,0 +1,15 @@
+.cardname{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        align-items: stretch;
+        align-content: space-around;
+        background-color: #00d2c4;
+}
+#TitleCard{
+    text-align: center;
+}
+.cardname .Card{
+    min-width: 3000000px;
+}

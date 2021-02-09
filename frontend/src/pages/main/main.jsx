@@ -29,7 +29,8 @@ export default (props)=>{
         <br/>
         
         <h1> PORQUE O CARA DEVE PARAR A VIDA DELE PRA VER SEU SITE</h1>
-        <p>coloque infos ou nao se quiser
+        <p>coloque infos ou nao se quiser, <br/>de preferencia ate encher aqui.<br/> bla<br/>mais um pouco<br/>
+        
 
         </p>
         <br/>
@@ -44,10 +45,12 @@ export default (props)=>{
    </Paper></div> </div>
 </div>
 
+<div className="parte2">
+
+</div>
 
 
 
-
-       <button className="btn-outline-success btn">BORA PORRA</button>
+   
     </div>)
 }

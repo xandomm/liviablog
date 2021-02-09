@@ -6,6 +6,12 @@ import { Editor } from '@tinymce/tinymce-react';
 import Texto from './text'
 import Parser from 'html-react-parser';
 var backendURL= process.env.REACT_APP_API_URL
+
+
+
+
+
+const str = 'ÁÉÍÓÚáéíóúâêîôûàèìòùÇç/.,~!@#$%&_-12345';
 class NovoProduto extends React.Component {
 
     constructor(){
@@ -31,7 +37,7 @@ class NovoProduto extends React.Component {
         console.log(this.state.texto)
       }
     componentDidMount(){
-        fetch(backendURL+'/api/counter/productid').then(
+        fetch(backendURL+'/api/post').then(
             res => res.json()
             ).then(
                 data => this.setState({
@@ -44,11 +50,11 @@ class NovoProduto extends React.Component {
         const files = this.state.img
         const formData = new FormData()
         formData.append('file',files)
-        fetch(backendURL+'/api/upload/'+this.state.id,{
+        fetch(backendURL+'/api/upload/'+this.state.url,{
             method:"POST",
             body:formData
         }).then( this.setState({
-            img_link: this.state.id+'.png'
+            img: this.state.url+'.png'
         }))
         var data = { 
             img: this.state.img,
@@ -57,13 +63,13 @@ class NovoProduto extends React.Component {
             subtitulo: this.state.subtitulo,
             texto: this.state.texto,
             link: this.state.link,
-            url: this.state.url,
+            url: this.state.nome.normalize('NFD').replace(/([\u0300-\u036f]|[^0-9a-zA-Z])/g, ''),
             img: this.state.img_link
         }
 
         data = JSON.stringify(data)
         console.log(data)
-        fetch(backendURL+'/api/produto',{
+        fetch(backendURL+'/api/post',{
             method:"POST",
             headers: {'Content-Type': 'application/json'},
             body:data
@@ -91,6 +97,9 @@ class NovoProduto extends React.Component {
         this.setState({
             [name]:value
         });
+        if (name == 'nome' && this.state.nome!=null){
+            this.setState({url: this.state.nome.normalize('NFD').replace(/([\u0300-\u036f]|[^0-9a-zA-Z])/g, '')})
+        }
     }
 
     render(){
@@ -104,13 +113,20 @@ class NovoProduto extends React.Component {
                     <FormGroup >
                  
 
+                        
+                    <Label style={{color:"black"}} for="nomeProduto">NOME</Label>
+
+<Input value={this.state.nome} type="text" name="nome" id="nomeProduto" onChange={this.handleChange}/>
+<br/>
+
                         <Label style={{color:"black"}} for="nomeProduto">TÍTULO</Label>
 
                         <Input value={this.state.titulo} type="text" name="titulo" id="nomeProduto" onChange={this.handleChange}/>
                         <br/>
                         <Label style={{color:"black"}} for="refProduto">SUBTÍTULO</Label>
-                        <Input value={this.state.subtitulo} type="text" name="ref" id="refProduto" onChange={this.handleChange}/>
+                        <Input value={this.state.subtitulo} type="text" name="subtitulo" id="refProduto" onChange={this.handleChange}/>
                         <br/>
+                        {console.log(this.state)}
                         <Editor
         initialValue={this.state.texto}
         apiKey="4sln0v4mod2utgq086s7kegv8r57lp82t6dg90qbt6ditgit"
@@ -132,21 +148,13 @@ class NovoProduto extends React.Component {
      {Parser(this.state.texto)}
  
                         
-                        <Label style={{color:"black"}} for="categoriaProduto">Categoria do produto</Label>
-                        <Input value={this.state.categoria} type="text" name="categoria" id="categoriaProduto" onChange={this.handleChange}/>
-
-                        <Label style={{color:"black"}} for="valorProduto">Valor do produto</Label>
-                        <Input value={this.state.valor} type="number" step="0.01" name="valor" min="0.01" id="valorProduto" onChange={this.handleChange}/>
-
-                        <Label style={{color:"black"}} for="qtdProduto">Quantidade em estoque</Label>
-                        <Input value={this.state.qtd} type="number" step="1" name="qtd" min="1" id="qtdProduto" onChange={this.handleChange}/>
-
+                     
                         <Label style={{color:"black"}} for="imgProduto">Fazer upload da imagem</Label>
                         <Input style={{color:"black"}} type="file" name="img" id="imgProduto" onChange={this.handleFileChange}/>
  
                     </FormGroup>  
                 </Form>
-                <Button onClick={this.cadastrarProduto}className="btn buttons" id="produtoSubmit">Cadastrar Produto</Button>
+                <Button onClick={this.cadastrarProduto}className="btn buttons" id="produtoSubmit">Cadastrar Texto</Button>
             </div>
             </div>
         )

@@ -2,7 +2,7 @@ import React from "react"
 import { Table, Button,InputGroup,Input } from "reactstrap"
 import ProdutoComponent from "./ProdutoComponent"
 import { Link } from "react-router-dom"
-
+var backendURL= process.env.REACT_APP_API_URL
 class Produtos extends React.Component {
     
     constructor() {
