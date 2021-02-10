@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from 'reactstrap'
+var backendURL= process.env.REACT_APP_API_URL
 class DeletarProduto extends React.Component {
 
     constructor(props){
@@ -9,13 +10,11 @@ class DeletarProduto extends React.Component {
     deletar(){
         var res = window.confirm("Tem certeza que deseja deletar o produto de ID " +this.props.id)
         if (res === true) {
-            fetch('http://casadaslaceiras.store:5000/api/produto/'+this.props.id,{
+            fetch(backendURL+'/api/post/'+this.props.id,{
                 method: "DELETE"
             })
-            fetch('http://casadaslaceiras.store:5000/api/counter/dec/productid',{
-                method: "PUT"
-            })
-            fetch('http://casadaslaceiras.store:5000/api/upload/del/'+this.props.id,{
+            
+            fetch(backendURL+'/ap/upload/del/'+this.props.id,{
                 method:"DELETE"
             })
             alert('Produto deletado')

@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-
+import moment from 'moment'
 const useStyles = makeStyles({
   root: {
     minWidth: 200,
@@ -18,8 +18,11 @@ const useStyles = makeStyles({
     height: 140,
   },
 });
+
+const backendURL= process.env.REACT_APP_API_URL
 //require(`${backendURL}/static/${props.url}`)
 export default (props)=>{
+  const formatDate = moment(props.criado).locale('pt-br').format('DD/MM/YYYY')
   const classes = useStyles();
 console.log(props.id)
   return (
@@ -36,6 +39,9 @@ console.log(props.id)
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
            {props.subtitle}
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+          Publicado em: {formatDate}
           </Typography>
         </CardContent>
       </CardActionArea>

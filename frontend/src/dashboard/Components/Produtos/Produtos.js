@@ -14,7 +14,7 @@ class Produtos extends React.Component {
     }
 
     componentDidMount(){
-        fetch("http://casadaslaceiras.store:5000/api/produto").then(
+        fetch(backendURL+"/api/post").then(
             produtos => produtos.json()
             )
         .then(data => {

@@ -1,7 +1,7 @@
 import React from "react"
 import {Button} from 'reactstrap'
 import {Link} from 'react-router-dom'
- 
+var backendURL= process.env.REACT_APP_API_URL
 class DetalhesProduto extends React.Component{
 
 
@@ -16,7 +16,7 @@ class DetalhesProduto extends React.Component{
     }
 
     componentDidMount(){
-        fetch("http://casadaslaceiras.store:5000/api/produto/"+this.state.id).then(
+        fetch(backendURL+"/api/post/"+this.state.id).then(
             produtos => produtos.json()
             )
         .then(data => {

@@ -19,12 +19,12 @@ const [load,setLoad] = useState(false)
 const lis =dados.map((dos)=>{
         
         return( 
-        <Card id={dos._id} title={dos.titulo} url={dos.url} subtitle={dos.subtitulo}/>
+        <Card id={dos._id} title={dos.titulo} url={dos.url} criado={dos.createdAt} url={dos.url} subtitle={dos.subtitulo}/>
         )
     }
     
     )
-
+console.log(dados)
 function cardList(){
 
 if (load === false){

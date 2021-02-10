@@ -54,8 +54,8 @@ class NovoProduto extends React.Component {
             method:"POST",
             body:formData
         }).then( this.setState({
-            img: this.state.url+'.png'
-        }))
+            img: this.state.url +'.png'
+        }), window.alert(this.state.img))
         var data = { 
             img: this.state.img,
             nome: this.state.nome,
