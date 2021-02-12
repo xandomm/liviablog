@@ -22,15 +22,17 @@ const useStyles = makeStyles({
 const backendURL= process.env.REACT_APP_API_URL
 //require(`${backendURL}/static/${props.url}`)
 export default (props)=>{
+  var txt = props.url
+  var foto = txt.substring(0, props.url.length - 1)
   const formatDate = moment(props.criado).locale('pt-br').format('DD/MM/YYYY')
   const classes = useStyles();
-console.log(props.id)
+console.log(foto)
   return (
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image={`${backendURL}/static/${foto}.png`}
           title="Contemplative Reptile"
         />
         <CardContent>
@@ -46,11 +48,9 @@ console.log(props.id)
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
+      
+        <Button size="small" href={`/blog/${props.url}`} id="xarablablabla" >
+          Confira
         </Button>
       </CardActions>
     </Card>

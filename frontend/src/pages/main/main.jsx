@@ -4,6 +4,7 @@ import './main.css'
 import Paper from '@material-ui/core/Paper';
 
 import { makeStyles } from '@material-ui/core/styles';
+import Medias from './medias';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -46,7 +47,7 @@ export default (props)=>{
 </div>
 
 <div className="parte2">
-
+<Medias/>
 </div>
 
 

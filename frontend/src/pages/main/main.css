@@ -5,7 +5,12 @@
    
 
 }
-
+.mediaSocial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff848c;
+}
 .butao{
     background-color: #ff848c;
     color: white;
@@ -63,10 +68,23 @@
       
         justify-content: center;
      
-    }
-    .segundalogo{
-        
-       
+    }  .segundalogo{
+        display: flex;
+
+      justify-content: center;
+        text-align: center;
         font-family: 'Bebas Neue', cursive;
+        color: #00d2c4;
+    }
+    .segundalogo h1{ 
+        color: #00d3c4;
+        font-weight: 600;
+     
+  
+    }
+  
+    .segundalogo p{ padding: 20px ;
+        color: #00d2c4;
+        font-size: 20pt;
     }
 }

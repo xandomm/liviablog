@@ -15,8 +15,8 @@ export default _=>{
                     <Route exact path="/" component={main} />
                     <Route exact path="/dashadmi" component={dash} />
                     <Route path ="/teste" component={teste}/>
-                    <Route path="/blog" component={blog}/>
-                    <Route path="/blog/:id" component={artigo}/>
+                    <Route exact path="/blog" component={blog}/>
+                    <Route path="/blog/:url" component={artigo}/>
                 </Switch>
             </BrowserRouter>
         </div>
