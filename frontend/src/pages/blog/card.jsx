@@ -39,9 +39,7 @@ console.log(foto)
           <Typography gutterBottom variant="h5" id="TitleCard" component="h2">
             {props.title}
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-           {props.subtitle}
-          </Typography>
+         
           <Typography variant="body2" color="textSecondary" component="p">
           Publicado em: {formatDate}
           </Typography>

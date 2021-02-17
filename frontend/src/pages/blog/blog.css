@@ -5,7 +5,10 @@
     
         align-items: stretch;
         align-content: space-around;
-        background-color: #00d2c4;
+        background-color: black;
+}
+#music{
+    display: none;
 }
 #TitleCard{
     text-align: center;

@@ -1,5 +1,5 @@
 .apresentacao{
-    background-color: #00d2c4;
+    background-color: black;
     display: flex;
  
    
@@ -9,10 +9,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ff848c;
+    background-color: purple;
 }
 .butao{
-    background-color: #ff848c;
+    background-color: purple;
     color: white;
     padding-bottom: -20px;
 }
@@ -24,6 +24,7 @@
         flex-grow: 1
     }
     .alinhar {
+        background-color: black;
         margin-top: 200px;
     }
     .primeiralogo img{
@@ -38,10 +39,11 @@
         flex-grow:1;
         text-align: center;
         font-family: 'Bebas Neue', cursive;
-        color: #00d2c4;
+        color: black;
     }
     .segundalogo h1{ 
-        color: #00d3c4;
+        color: purple;
+
         font-weight: 600;
         letter-spacing:2px
   
@@ -51,7 +53,7 @@
   
     }
     .segundalogo p{ padding: 20px ;
-        color: #00d2c4;
+        color: #fff;
         font-size: 20pt;
     }
 }
@@ -74,17 +76,34 @@
       justify-content: center;
         text-align: center;
         font-family: 'Bebas Neue', cursive;
-        color: #00d2c4;
+        color: black;
     }
     .segundalogo h1{ 
-        color: #00d3c4;
+  
         font-weight: 600;
      
   
     }
   
     .segundalogo p{ padding: 20px ;
-        color: #00d2c4;
+        color: black;
         font-size: 20pt;
     }
 }
+.glow {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60073, 0 0 20px #e60073, 0 0 25px #e60073, 0 0 30px #e60073, 0 0 35px #e60073;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 15px #ff4da6, 0 0 20px #ff4da6, 0 0 25px #ff4da6, 0 0 30px #ff4da6, 0 0 35px #ff4da6, 0 0 40px #ff4da6;
+    }
+  }

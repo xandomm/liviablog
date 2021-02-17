@@ -42,7 +42,7 @@ console.log(dados)
 
     return(
         <div>
-            <Header/>
+            <Header id={props.id_}/>
 <div className="cardname">
 {cardList()}
 {lis}

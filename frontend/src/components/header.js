@@ -1,9 +1,9 @@
 import './header.css'
-import logob from '../img/azullogo.png'
+import logob from '../img/logoroxa.png'
 
-export default ()=>{
+export default (props)=>{
     return(
-        <div>
+        <div id={props.id}>
             <nav class="navbar navbar-expand-lg navbar-dark bg-azul">
   <div class="container-fluid">
     <div className="logoh">
@@ -17,9 +17,7 @@ export default ()=>{
         <li class="nav-item navls">
           <a class="nav-link active navls" aria-current="page" href="#"><h5>HOME</h5></a>
         </li>
-        <li class="nav-item navls">
-          <a class="nav-link" href="#"><h5>BLOG</h5></a>
-        </li>
+     
         <li class="nav-item navls">
           <a class="nav-link" href="#"><h5>QUEM SOMOS NÓS</h5></a>
         </li>
