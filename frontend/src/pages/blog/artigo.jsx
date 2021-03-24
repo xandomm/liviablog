@@ -11,6 +11,7 @@ import moment from 'moment'
 import './artigo.css'
 
 import Parser from 'html-react-parser';
+import Medias from "../main/medias";
 
 
 
@@ -60,7 +61,7 @@ console.log(post)
 function Carregado(){
     if(postObject != undefined){
         const formatDate = moment(postObject.createdAt).locale('pt-br').format('DD/MM/YYYY')
-        return(<div
+        return(<div><div
             className="tituloesub">
     <div class="card text-center bg-azuli">
 
@@ -77,7 +78,10 @@ function Carregado(){
          <div className='txtArtigo'>
 {Parser(postObject.texto)}
          </div>
-         </div>)}
+      
+         </div>
+         <Medias/>
+         </div> )}
          else {
              return( <CircularProgress />)
          }

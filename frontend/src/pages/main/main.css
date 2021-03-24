@@ -5,6 +5,25 @@
   
 
 }
+.btn1{
+    background-color: #00416B;
+    color: #f9f3ea;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lexend', sans-serif;
+}
+.carta .btn2{
+    background-color: #9A4956;
+    border-color: #9A4956;
+    color: #f9f3ea;
+    border-radius: 10px;
+}
+.bg-bege{
+    background-color: #f9f3ea;
+}
 .mediaSocial{
     display: flex;
     justify-content: center;
@@ -16,6 +35,16 @@
     color: white;
     padding-bottom: -20px;
 }
+.b2{
+    background-color: #276B05;
+    color: white;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lexend', sans-serif;
+}
 @media(min-width: 800px){
     .primeiralogo{
     
@@ -23,6 +52,9 @@
         width: 30%;
         right: 120px;
         justify-content: center;
+    }
+    .b2{
+        
     }
     .primeiralogo img{
         width: 120%;
@@ -66,9 +98,30 @@
         background-color: #f9f3ea ;
         display: flex;
         flex-direction: column;
-        justify-content: start;
-        text-align: start;
        
+        text-align: start;
+        min-height: 100vh;
+     justify-content: center;
+     margin-top: -150px;
+    }
+    .txt-intro{
+        display: flex;
+        color: #00416B;
+        font-family: 'Lexend', sans-serif;
+        justify-content: space-between;
+    }
+    .livia{
+        padding: 20px;
+        max-width: 50vw;
+    }
+    .gabriela{
+        padding: 20px;
+        text-align: end;
+        align-items: stretch;
+        max-width: 50vw;
+    }
+    .txt-intro h2{
+        color: #9A4956;
     }
     #error404{
   
@@ -76,6 +129,7 @@
         width: 30%;
         right: 20px;
     }
+    
     .txtApresent{
         text-align: start;
         padding: 0% 10% 0 10%;
@@ -84,20 +138,38 @@
         width: 50%;
         color: #00416B;
     }
+    
+    .img-menins{
+        margin: 80px 10%;
+        background-color: #f9f3ea;
+    }
     .segundalogo h1{ 
-        text-align: start;
+        
         color: #00416B;
         font-family: 'Lexend', sans-serif;
-
+        
   
     }
-    .segundalogo Paper{ padding: 20px ;
-      margin-right: 20px;
-  
-    }
+   
     .segundalogo p{ padding: 20px ;
         color:#F0FDFD;
 
+    }
+    .txt-p{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        color: #00416B;
+            margin: 0 30px 30px 30px;
+        font-family: 'Lexend', sans-serif;
+    }
+    .txt-p1{
+
+        text-align: center;
+    
+        color: #9A4956;
+        font-weight: 700;
+    
     }
 }
 @media(max-width: 800px){
@@ -124,6 +196,7 @@
        color:#00416B;
         
     }
+    
     .segundalogo h1{ 
         color:#00416B;
         font-family: 'Lexend', sans-serif;
@@ -144,8 +217,42 @@
         color: #00416B;
  
     }
+    .txt-intro{
+        display: flex;
+        color: #00416B;
+        align-items: stretch;
+        font-family: 'Lexend', sans-serif;
+        justify-content: space-between;
+    }
+    .txt-intro h2{
+        color: #9A4956;
+    }
+    .livia{
+     max-width: 50vw;
+    }
+    .gabriela{
+        
+        text-align: end;
+        max-width: 50vw;
+    }
     #error404{
   
       display: none;
+    }
+    .txt-p{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        color: #00416B;
+   
+        font-family: 'Lexend', sans-serif;
+    }
+    .txt-p1{
+
+        text-align: center;
+        
+        color: #9A4956;
+        font-weight: 500;
+    
     }
 }
