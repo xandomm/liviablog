@@ -1,18 +1,18 @@
 .bg-azul {
-    background-color:  #00d2c4;
-    font-style: #ffffff;
+    background-color:  #f9f3ea;
+    font-style: #000;
 }
 
-.logoHeader {
-    max-height: 100px;
-};
+.navbar-dark{
+    color:  #00416B !important;
+}
 .nav-link{
-    font-weight: 800;
-    font-size: 50pt;
+   
+
 }
 @media (min-width: 800px) {
     .logoHeader {
-        max-height: 100px;
+        height: 100px
     };
     .navls{
         width: 800px;
@@ -24,10 +24,12 @@
     .logoh2{
         justify-content: space-around;
     }
-    /* .Header-l{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 500px;
-    } */
+    .Header-l{
+        color:  #00416B ;
+    }
+}
+@media (max-width: 800px) {
+    .logoHeader {
+        width: 100px;
+    }
 }

@@ -1,15 +1,15 @@
 .apresentacao{
-    background-color: #00d2c4;
+    background-color: #ffff;
     display: flex;
- 
-   
+
+  
 
 }
 .mediaSocial{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ff848c;
+    background-color: #00416B;
 }
 .butao{
     background-color: #ff848c;
@@ -18,32 +18,77 @@
 }
 @media(min-width: 800px){
     .primeiralogo{
-        display: flex;
     
-        width: 50%;
-        flex-grow: 1
+        position: absolute;
+        width: 30%;
+        right: 120px;
+        justify-content: center;
+    }
+    .primeiralogo img{
+        width: 120%;
+        margin-right: 50px;
     }
     .alinhar {
         margin-top: 200px;
     }
     .primeiralogo img{
         display: flex;
-        justify-content: start;
-        width: 50%;
+        justify-content: end;
+    
         flex-grow: 1
     }
     .segundalogo{
-        display: flex;
-        width: 50%;
-        flex-grow:1;
+        
+        display: inline-flex;
+    
         text-align: center;
-        font-family: 'Bebas Neue', cursive;
-        color: #00d2c4;
+        justify-content: center;
+        
+        
+        width: 50%;
+        font-family: 'Oxygen', sans-serif;
+        color: #00416B;
+    }
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        padding: 80px;
+        background-color: #f9f3ea;
+    }
+    .imgApresenta{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        width: 50%;
+        background-color: #00416B;
+    }
+    .apresentacao{
+        background-color: #f9f3ea ;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        text-align: start;
+       
+    }
+    #error404{
+  
+        position: absolute;
+        width: 30%;
+        right: 20px;
+    }
+    .txtApresent{
+        text-align: start;
+        padding: 0% 10% 0 10%;
+        font-family: 'Lexend', sans-serif;
+  
+        width: 50%;
+        color: #00416B;
     }
     .segundalogo h1{ 
-        color: #00d3c4;
-        font-weight: 600;
-        letter-spacing:2px
+        text-align: start;
+        color: #00416B;
+        font-family: 'Lexend', sans-serif;
+
   
     }
     .segundalogo Paper{ padding: 20px ;
@@ -51,8 +96,8 @@
   
     }
     .segundalogo p{ padding: 20px ;
-        color: #00d2c4;
-        font-size: 20pt;
+        color:#F0FDFD;
+
     }
 }
 @media(max-width: 800px){
@@ -63,28 +108,44 @@
     }
     .apresentacao{
         flex-direction: column;
+        background-color: #f9f3ea ;
     }
     .primeiralogo img{
-      
+        width: 100%;
         justify-content: center;
+        margin-top: -50px;
      
     }  .segundalogo{
         display: flex;
 
       justify-content: center;
         text-align: center;
-        font-family: 'Bebas Neue', cursive;
-        color: #00d2c4;
+        font-family: 'Lexend', sans-serif;
+       color:#00416B;
+        
     }
     .segundalogo h1{ 
-        color: #00d3c4;
-        font-weight: 600;
-     
+        color:#00416B;
+        font-family: 'Lexend', sans-serif;
+        font-size: 20pt;
+ 
   
     }
-  
-    .segundalogo p{ padding: 20px ;
-        color: #00d2c4;
+    .txtApresent{
+        text-align: center;
+     
+        font-family: 'Lexend', sans-serif;
         font-size: 20pt;
+        padding: 10px;
+        
+        color: #00416B;
+    }
+    .segundalogo p{ padding: 20px ;
+        color: #00416B;
+ 
+    }
+    #error404{
+  
+      display: none;
     }
 }

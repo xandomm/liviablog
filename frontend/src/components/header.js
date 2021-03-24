@@ -1,10 +1,10 @@
 import './header.css'
-import logob from '../img/azullogo.png'
+import logob from '../img/logo3.png'
 
 export default ()=>{
     return(
         <div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-azul">
+            <nav class="navbar navbar-expand-lg Header-l bg-azul">
   <div class="container-fluid">
     <div className="logoh">
     <a class="navbar-brand" href="#"><img src={logob} className="logoHeader"></img></a></div>
@@ -15,25 +15,12 @@ export default ()=>{
     <div class="collapse navbar-collapse Header-l" id="navbarNavDropdown">
       <ul class="navbar-nav Header-l">
         <li class="nav-item navls">
-          <a class="nav-link active navls" aria-current="page" href="#"><h5>HOME</h5></a>
+          <a class="nav-link active navls" aria-current="page" href="#"><h5 className="Header-l">HOME</h5></a>
         </li>
         <li class="nav-item navls">
-          <a class="nav-link" href="#"><h5>BLOG</h5></a>
+          <a class="nav-link" href="#"><h5 className="Header-l">BLOG</h5></a>
         </li>
-        <li class="nav-item navls">
-          <a class="nav-link" href="#"><h5>QUEM SOMOS NÓS</h5></a>
-        </li>
-        <li class="nav-item dropdown">
-
-          <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" >
-          <h5>NOSSOS SERVIÇOS</h5>
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">CONSULTORIA PESSOAL</a></li>
-            <li><a class="dropdown-item" href="#">CONSULTORIA EMPRESARIAL</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
+   
       </ul>
     </div></div>
   </div>
