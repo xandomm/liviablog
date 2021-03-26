@@ -7,6 +7,7 @@ import blog from './pages/blog/blog'
 import teste from './pages/main/test'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import artigo from './pages/blog/artigo'
+import contato from './pages/contato/contato'
 export default _=>{
     return(
         <div>
@@ -15,6 +16,7 @@ export default _=>{
                     <Route exact path="/" component={main} />
                     <Route exact path="/dashadmi" component={dash} />
                     <Route path ="/teste" component={teste}/>
+                    <Route path='/contato' component={contato}/>
                     <Route exact path="/blog" component={blog}/>
                     <Route path="/blog/:url" component={artigo}/>
                 </Switch>

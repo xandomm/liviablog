@@ -80,7 +80,7 @@ function Carregado(){
          </div>
       
          </div>
-         <Medias/>
+         <Medias/>npm run dev
          </div> )}
          else {
              return( <CircularProgress />)

@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-
+const Joi = require('joi');
 
 const cadastroSchema = mongoose.Schema({
     _id: {
@@ -8,8 +8,9 @@ const cadastroSchema = mongoose.Schema({
     },
     nome: String,
     numero: Number,
-    sobrenome: String ,
-    email: String
+    
+    email: String,
+    mensagem: String
     
     
 }, {
