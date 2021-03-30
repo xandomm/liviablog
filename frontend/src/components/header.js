@@ -17,12 +17,14 @@ export default ()=>{
     <div class="collapse navbar-collapse Header-l" id="navbarNavDropdown">
       <ul class="navbar-nav Header-l">
         <li class="nav-item navls">
-          <a class="nav-link active navls" aria-current="page" href="#"><h5 className="Header-l">HOME</h5></a>
+          <a class="nav-link active navls" aria-current="page" href="/"><h5 className="Header-l">HOME</h5></a>
         </li>
         <li class="nav-item navls">
-          <a class="nav-link" href="#"><h5 className="Header-l">BLOG</h5></a>
+          <a class="nav-link" href="/blog"><h5 className="Header-l">BLOG</h5></a>
         </li>
-   
+        <li class="nav-item navls">
+          <a class="nav-link" href="/contato"><h5 className="Header-l">CONTATO</h5></a>
+        </li>
       </ul>
     </div></div>
   </div>

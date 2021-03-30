@@ -7,10 +7,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import Medias from './medias';
 import Logo2 from '../../img/logo2.png'
 import Livia from './Livia'
-import Meninasj from '../../img/meninasj.jpeg'
+import Meninasj from '../../img/menina1.jpeg'
 import Blog2 from '../blog/blog2'
 
-
+import Form from '../contato/form'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -132,10 +132,17 @@ Consultora Financeira do Economia com Objetivo, Graduação pela Universidade Pr
 <br/>
 <br/>
 <br/>
-<button className="btn b2"><h1>Faça um orçamento!</h1> </button>
+<Form/>
 <br/>
 <br/><br/>
-
+<br/>
+<br/><br/><br/>
+<br/><br/>
+<br/>
+<br/><br/>
+<br/>
+<br/><br/><br/>
+<br/><br/>
 <div className="parte2">
 <Medias/>
 </div>

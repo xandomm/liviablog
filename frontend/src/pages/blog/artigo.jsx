@@ -13,7 +13,7 @@ import './artigo.css'
 import Parser from 'html-react-parser';
 import Medias from "../main/medias";
 
-
+import Form from '../contato/form'
 
 var backendURL = process.env.REACT_APP_API_URL
 
@@ -80,7 +80,19 @@ function Carregado(){
          </div>
       
          </div>
-         <Medias/>npm run dev
+         <Form/>
+         <br/>
+<br/><br/>
+<br/>
+<br/><br/><br/>
+<br/><br/>
+<br/>
+<br/><br/>
+<br/>
+<br/><br/><br/>
+<br/><br/>
+
+         <Medias/>
          </div> )}
          else {
              return( <CircularProgress />)

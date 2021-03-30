@@ -6,6 +6,7 @@ import axios from 'axios'
 import Card from './card'
 import './blog.css'
 import { useEffect } from "react"
+import Medias from "../main/medias"
 
 
 
@@ -50,6 +51,7 @@ console.log(dados)
 
 
 </div>
-        </div>
+        
+<Medias/></div>
     )
 }

@@ -11,9 +11,9 @@ import './main.css'
 
 export default ()=>{
     return(<div className="mediaSocial">
-        <InstagramIcon style={{ fontSize: 50,  color: "white" }}/>
-        <FacebookIcon style={{ fontSize: 50 ,  color: "white"}}/>
-        <LinkedInIcon style={{ fontSize: 50,  color: "white" }}/>
+      <a href="https://www.instagram.com/economiacomobjetivo/"><InstagramIcon style={{ fontSize: 50,  color: "white" }}/></a>  
+       <a href="https://www.facebook.com/Economia-com-Objetivo-113248517200924/?ref=bookmarks"><FacebookIcon style={{ fontSize: 50 ,  color: "white"}}/></a> 
+     <a href="https://www.linkedin.com/company/economiacomobjetivo/?viewAsMember=true"><LinkedInIcon style={{ fontSize: 50,  color: "white" }}/></a>   
 
     </div>)
 }
