@@ -30,7 +30,7 @@ class Login extends React.Component{
     
     authenticate(event){
         event.preventDefault();
-        if(this.state.user === 'admin' && this.state.pwd === '123'){
+        if(this.state.user === 'economia.admin' && this.state.pwd === 'EcO1516171819'){
             const secretCode = "lkqklosncploqkluleqklmoctnc"
             sessionStorage.setItem('secretCode', secretCode);
             console.log(secretCode)

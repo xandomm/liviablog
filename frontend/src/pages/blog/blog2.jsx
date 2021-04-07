@@ -51,7 +51,7 @@ console.log(dados)
 
 
 </div>
-<Medias/>
+
         </div>
     )
 }
