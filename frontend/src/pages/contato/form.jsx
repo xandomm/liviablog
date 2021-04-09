@@ -22,7 +22,7 @@ export default (props)=>{
     
     const onSubmit = ()=> {
         const data= JSON.stringify(user);
-        window.alert(data)
+ 
         axios.post(backendURL+'/api/cadastro', user, {headers: { 'Content-Type': 'application/json'}})
         .then(res=>{
         window.alert('Em breve entraremos em contato contigo!')
