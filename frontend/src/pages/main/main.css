@@ -1,9 +1,9 @@
 .apresentacao{
-    background-color: #ffff;
+    background-color: #ebecec;
     display: flex;
 
-  
-
+    flex-direction: column;
+    height: 100vh;
 }
 .btn1{
     background-color: #00416B;
@@ -18,11 +18,11 @@
 .carta .btn2{
     background-color: #9A4956;
     border-color: #9A4956;
-    color: #f9f3ea;
+    color: #ebecec;
     border-radius: 10px;
 }
 .bg-bege{
-    background-color: #f9f3ea;
+    background-color: #ebecec;
 }
 .mediaSocial{
     display: flex;
@@ -48,28 +48,18 @@
 @media(min-width: 800px){
     .primeiralogo{
     
-        position: absolute;
-        width: 30%;
-        right: 120px;
+        margin-left: auto;
+        margin-right: auto;
         justify-content: center;
     }
-    .b2{
-        
-    }
-    .primeiralogo img{
-        width: 120%;
-        margin-right: 50px;
-    }
-    .alinhar {
-        margin-top: 200px;
-    }
+
     .primeiralogo img{
         display: flex;
-        justify-content: end;
+        justify-content: center;
     
         flex-grow: 1
     }
-    .segundalogo{
+    .segundotxt{
         
         display: inline-flex;
     
@@ -77,32 +67,30 @@
         justify-content: center;
         
         
-        width: 50%;
-        font-family: 'Oxygen', sans-serif;
+        font-weight: 100;
+        font-family: 'Lexend', sans-serif;
         color: #00416B;
     }
     .cards {
         display: flex;
         justify-content: space-between;
         padding: 80px;
-        background-color: #f9f3ea;
+        background-color: #ebecec;
     }
     .imgApresenta{
         display: flex;
         justify-content: flex-end;
         align-items: flex-start;
         width: 50%;
-        background-color: #00416B;
+        background-color: #ebecec;
     }
     .apresentacao{
-        background-color: #f9f3ea ;
+        background-color: #ebecec ;
         display: flex;
         flex-direction: column;
-       
         text-align: start;
-        min-height: 100vh;
-     justify-content: center;
-     margin-top: -150px;
+        height: 100vh;
+        justify-content: center;
     }
     .txt-intro{
         display: flex;
@@ -141,7 +129,7 @@
     
     .img-menins{
         margin: 80px 10%;
-        background-color: #f9f3ea;
+        background-color: #ebecec;
     }
     .segundalogo h1{ 
         
@@ -155,46 +143,112 @@
         color:#F0FDFD;
 
     }
-    .txt-p{
+    
+    .txt-p h1{
         display: flex;
         text-align: center;
-        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
         color: #00416B;
-            margin: 0 30px 30px 30px;
+        font-family: 'Antonio', sans-serif;
+    }
+    .txt-p h4{
+        display: flex;
+        text-align: start;
+   
+        margin: 50px;
+        color: #00416B;
+        font-family: 'Lexend', sans-serif;
+    }
+    .txt-p h6{
+        display: flex;
+        text-align: start;
+   
+        margin: 10px;
+        color: #00416B;
         font-family: 'Lexend', sans-serif;
     }
     .txt-p1{
-
+        display: flex;
         text-align: center;
     
         color: #9A4956;
         font-weight: 700;
     
     }
+    .icon-carta{
+        background-color: #9A4956;
+        width: 80px;
+        color: white;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+    }
+    .carta-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        max-width: 250px;
+        width: 100vw;
+        font-family: 'Antonio', sans-serif;
+    }
+    .carta-wrapper h4{
+     
+        color: #00416B;
+    
+        font-family: 'Antonio', sans-serif;
+    }
+    .carta{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: inline;
+        flex-wrap: wrap;
+    }
 }
+
+
+
+
+
+
 @media(max-width: 800px){
     .primeiralogo{
-        display: flex;
+    
+        margin-left: auto;
+        margin-right: auto;
         justify-content: center;
-       
     }
-    .apresentacao{
-        flex-direction: column;
-        background-color: #f9f3ea ;
+
+    .segundotxt{
+        
+        display: inline-flex;
+    
+        text-align: center;
+        justify-content: center;
+        
+        
+        font-weight: 100;
+        font-family: 'Lexend', sans-serif;
+        color: #00416B;
     }
     .primeiralogo img{
         width: 100%;
         justify-content: center;
         margin-top: -50px;
      
-    }  .segundalogo{
+    }    .apresentacao{
+        background-color: #ebecec ;
         display: flex;
-
-      justify-content: center;
-        text-align: center;
-        font-family: 'Lexend', sans-serif;
-       color:#00416B;
-        
+        flex-direction: column;
+       
+        text-align: start;
+        height: 100vh;
+     justify-content: center;
+   
     }
     
     .segundalogo h1{ 
@@ -216,6 +270,22 @@
     .segundalogo p{ padding: 20px ;
         color: #00416B;
  
+    }
+    .txt-p h1{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        color: #00416B;
+        font-family: 'Antonio', sans-serif;
+    }
+    
+    .txt-p h4{
+        display: flex;
+        text-align: start;
+        flex-direction: column;
+        margin: 20px;
+        color: #00416B;
+        font-family: 'Lexend', sans-serif;
     }
     .txt-intro{
         display: flex;
@@ -254,5 +324,47 @@
         color: #9A4956;
         font-weight: 500;
     
+    }
+ 
+    .icon-carta{
+        background-color: #9A4956;
+        width: 60px;
+        color: white;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+    }
+    .icon-carta svg{
+   
+        width: 40px;
+        color: white;
+        height: 40px;
+       
+    }
+    .carta-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        max-width: 100px;
+        width: 100vw;
+        font-family: 'Antonio', sans-serif;
+    }
+    .carta-wrapper h4{
+     
+        color: #00416B;
+        font-size: 10pt;    
+        font-family: 'Antonio', sans-serif;
+    }
+    .carta{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: inline;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }

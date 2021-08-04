@@ -1,10 +1,10 @@
 .bg-azul {
-    background-color:  #f9f3ea;
+    background-color:  #00416B ;
     font-style: #000;
 }
 
 .navbar-dark{
-    color:  #00416B !important;
+    color:  #a0abb3 !important;
 }
 
 @media (min-width: 800px) {
@@ -15,18 +15,25 @@
         width: 800px;
         font-weight: 800;
     };
-    .logoh{
-        justify-content: start;
-    }
+   
     .logoh2{
         justify-content: space-around;
     }
     .Header-l{
-        color:  #00416B ;
+        color:  #ebecec ;
+        display: flex;
+        justify-content: center;
+        
     }
 }
 @media (max-width: 800px) {
     .logoHeader {
         width: 100px;
+    }
+    .Header-l{
+        color:  #ebecec ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
