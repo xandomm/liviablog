@@ -100,13 +100,23 @@
     }
     .livia{
         padding: 20px;
-        max-width: 50vw;
+        max-width: 40vw;
+    }
+    .livia img{
+        max-width: 200px;
+        border: 10px #9A4956;
+        display: flex;
+        justify-content: center;
     }
     .gabriela{
         padding: 20px;
         text-align: end;
         align-items: stretch;
-        max-width: 50vw;
+        max-width: 40vw;
+    }
+    .gabriela img{
+        max-width: 200px;
+     
     }
     .txt-intro h2{
         color: #9A4956;
@@ -144,11 +154,26 @@
 
     }
     
+    .txt-p{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        color: #00416B;
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Lexend', sans-serif;
+    }
+
     .txt-p h1{
         display: flex;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        justify-content: center;
+        align-items: center;
         justify-content: center;
         color: #00416B;
         font-family: 'Antonio', sans-serif;
@@ -156,15 +181,17 @@
     .txt-p h4{
         display: flex;
         text-align: start;
-   
+        justify-content: center;
+        align-items: center;
         margin: 50px;
         color: #00416B;
         font-family: 'Lexend', sans-serif;
     }
     .txt-p h6{
         display: flex;
-        text-align: start;
-   
+        text-align: center;
+        justify-content: center;
+        align-items: center;
         margin: 10px;
         color: #00416B;
         font-family: 'Lexend', sans-serif;
@@ -281,7 +308,7 @@
     
     .txt-p h4{
         display: flex;
-        text-align: start;
+        text-align: center;
         flex-direction: column;
         margin: 20px;
         color: #00416B;
@@ -300,10 +327,21 @@
     .livia{
      max-width: 50vw;
     }
+    .livia img{
+        max-width: 40vw;
+        border: 10px #9A4956;
+        display: flex;
+        justify-content: center;
+    }
     .gabriela{
         
         text-align: end;
         max-width: 50vw;
+    }
+    .gabriela img{
+        max-width: 40vw;
+        border: 10px #9A4956;
+     
     }
     #error404{
   
@@ -314,7 +352,7 @@
         text-align: center;
         flex-direction: column;
         color: #00416B;
-   
+        
         font-family: 'Lexend', sans-serif;
     }
     .txt-p1{
