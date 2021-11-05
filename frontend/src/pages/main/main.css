@@ -99,8 +99,11 @@
         justify-content: space-between;
     }
     .livia{
+        display: flex;
         padding: 20px;
         max-width: 40vw;
+        flex-direction: column;
+        justify-content: center;
     }
     .livia img{
         max-width: 200px;
@@ -156,7 +159,7 @@
     
     .txt-p{
         display: flex;
-        text-align: center;
+        text-align: justify;
         flex-direction: column;
         color: #00416B;
         width: 70vw;
@@ -180,7 +183,7 @@
     }
     .txt-p h4{
         display: flex;
-        text-align: start;
+        text-align: justify;
         justify-content: center;
         align-items: center;
         margin: 50px;
@@ -349,7 +352,7 @@
     }
     .txt-p{
         display: flex;
-        text-align: center;
+        text-align: justify;
         flex-direction: column;
         color: #00416B;
         

@@ -12,6 +12,7 @@ import Gabriela from '../../img/gabriela.png'
 import Blog2 from '../blog/blog2'
 
 import Form from '../contato/form'
+import Services from './Services';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -45,12 +46,13 @@ export default (props)=>{
 
 <div className='txt-p'>
   <h1>CONHEÇA A NOSSA HISTÓRIA</h1>
-   <h4>Somos Gabriela e Lívia, duas doutoras em economia, que decidiram usar o conhecimento e a paixão pelo mundo das finanças para transformar a relação das pessoas com o dinheiro. Juntas, criamos o Economia com Objetivo, com o intuito de levar um conhecimento que vai muito além dos números, para que você consiga lidar com as suas finanças de modo descomplicado. Em outras palavras, queremos que as pessoas sonhem e sejam capazes de realizar!</h4>
-<br/>
+   <h4> Somos Gabriela e Lívia, duas doutoras em economia, que decidiram usar o conhecimento e a paixão pelo mundo das finanças para transformar a relação das pessoas com o dinheiro. Juntas, criamos o Economia com Objetivo, com o intuito de levar um conhecimento que vai muito além dos números, para que você consiga lidar com as suas finanças de modo descomplicado. Em outras palavras, queremos que as pessoas sonhem e sejam capazes de realizar!
+</h4>
+<br/><br/><br/><br/><br/><br/><br/>
 
  </div>
 <div className="bg-bege">
-<h1 className="txt-p1">Sobre nós</h1>
+<h1 className="txt-p">SOBRE NÓS</h1>
 
 <div className="txt-intro">
   <div className="livia">
@@ -151,6 +153,7 @@ Com a consultoria pensamos em diferentes cenários e fornecemos informações pa
 <Blog2/>
 <br/>
 <br/>
+<Services />
 <br/>
 <br/>
 <Form/>
