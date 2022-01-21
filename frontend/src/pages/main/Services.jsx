@@ -7,7 +7,7 @@ export default () => {
         <div class="row">
             <div class="col-lg-6">
                 <div class="section-title">
-                    <h2>Nossos serviços</h2>
+                    <h2>Nossos Serviços</h2>
                
                 </div>
             </div>
@@ -18,8 +18,7 @@ export default () => {
                 <div class="feature-box-1">
 
                     <div class="feature-content">
-                        <h5>consultoria 
-individual</h5>
+                        <h5>Consultoria Individual</h5>
                         <p>Para você ou casal!<br/>
                         
 Encontros individuais para montar um planejamento financeiro  de acordo com as suas necessidades </p>
@@ -31,8 +30,7 @@ Encontros individuais para montar um planejamento financeiro  de acordo com as s
                 <div class="feature-box-1">
 
                     <div class="feature-content">
-                        <h5>Mentoria em 
-grupo</h5>
+                        <h5>Mentoria em Grupo</h5>
                         <p>Encontros ao vivo!<br/>
                         Saiba, na prática, como montar o seu orçamento e criar um plano de ação com metas para realizar seus sonhos e formar sua Reserva.  </p>
                     </div>
@@ -43,8 +41,7 @@ grupo</h5>
                 <div class="feature-box-1">
 
                     <div class="feature-content">
-                        <h5>Palestras de 
-educação
+                        <h5>Palestras de Educação
 financeira</h5>
                         <p>Leve educação financeira para os seus funcionários<br/>Workshop para apresentar método de Organização Financeira para os seus colaboradores. Mostraremos na prática, que colocar as contas e sonhos no papel fazem toda a diferença para dar o primeiro passo e ter controle sobre as próprias finanças, utilizando 3 pilares simples - Gastos Mensais, Gastos Anuais e Objetivos de Vida.  </p>
                     </div>

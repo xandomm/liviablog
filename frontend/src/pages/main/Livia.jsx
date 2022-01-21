@@ -35,7 +35,7 @@ export default function ImgMediaCard() {
           <Typography gutterBottom variant="h5" component="h2">
           GABRIELA AIDAR
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body2" color="textSecondary" align="justify" component="p">
           Consultora Financeira do Economia com Objetivo, Graduação pela Universidade Presbiteriana Mackenzie, Mestrado e Doutorado pela Universidade Federal de Uberlândia.
 Muito além da minha formação, sempre tive muito gosto pelos estudos e por ajudar a quem precisasse, mesmo que isso tomasse um tempo que, às vezes, eu parecia não ter. Hoje, poder tornar esse ato de ajudar as pessoas o meu trabalho, me traz cada vez mais certeza de que estou no lugar certo e me realizando a cada dia. E é para isso que estou aqui: te ajudar, para que as  suas finanças deixem de ser uma preocupação e passe a ser uma ferramenta de realização de desejos e sonhos!
 

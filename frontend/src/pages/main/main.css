@@ -104,7 +104,10 @@
         max-width: 40vw;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        text-align: justify;
     }
+    
     .livia img{
         max-width: 200px;
         border: 10px #9A4956;
@@ -112,10 +115,13 @@
         justify-content: center;
     }
     .gabriela{
+        display: flex;
         padding: 20px;
-        text-align: end;
-        align-items: stretch;
         max-width: 40vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
     }
     .gabriela img{
         max-width: 200px;
@@ -329,6 +335,7 @@
     }
     .livia{
      max-width: 50vw;
+     justify-content: center;
     }
     .livia img{
         max-width: 40vw;

@@ -13,6 +13,7 @@ import Blog2 from '../blog/blog2'
 
 import Form from '../contato/form'
 import Services from './Services';
+import Review from './Review';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -36,7 +37,7 @@ export default (props)=>{
  
  
     <div className="primeiralogo" ><img src={Logo2}></img></div>
-    <div className="segundotxt"><h2><i>Uma consultoria que vai além dos números</i></h2></div>
+    <div className="segundotxt"><h2>Uma consultoria que vai além dos números</h2></div>
    
 </div>
 
@@ -52,7 +53,10 @@ export default (props)=>{
 
  </div>
 <div className="bg-bege">
-<h1 className="txt-p">SOBRE NÓS</h1>
+  <div className='txt-p'>
+    <h1 className="txt-p">SOBRE NÓS</h1>
+  </div>
+
 
 <div className="txt-intro">
   <div className="livia">
@@ -79,7 +83,7 @@ Consultora Financeira do Economia com Objetivo, Graduação pela Universidade Pr
 <br/>
 <br/>
 <br/>
-<div className="carta txt-p"><h1 className="txt-p">A consultoria</h1></div>
+<div className="carta txt-p"><h1 className="txt-p">A CONSULTORIA</h1></div>
 
 <div className="carta">
 
@@ -156,6 +160,9 @@ Com a consultoria pensamos em diferentes cenários e fornecemos informações pa
 <Services />
 <br/>
 <br/>
+<br/>
+<br/>
+<Review />
 <Form/>
 <br/>
 <br/><br/>
