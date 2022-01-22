@@ -16,7 +16,11 @@
     font-weight: bold;
     line-height: 2rem
 }
-
+.streech {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
 @media(max-width:767px) {
     .carousel-caption {
         position: initial;
@@ -28,6 +32,11 @@
         font-style: italic;
         font-weight: bold;
         line-height: 1.5rem
+    }
+    .streech {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
     }
 }
 
@@ -43,6 +52,11 @@
         border-radius: 4rem;
         margin-top: 1rem
     }
+    .streech {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    }
 }
 
 #image-caption {
@@ -57,6 +71,11 @@
         font-size: 0.6rem;
         margin-top: 0.5rem
     }
+    .streech {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    }
 }
 
 i {
@@ -67,6 +86,11 @@ i {
 @media(max-width:767px) {
     i {
         padding: 0.8rem
+    }
+    .streech {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
     }
 }
 
