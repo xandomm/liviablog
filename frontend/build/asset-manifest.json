@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.716d6dd0.chunk.css",
-    "main.js": "/static/js/main.3d9e93c9.chunk.js",
-    "main.js.map": "/static/js/main.3d9e93c9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.26d94c73.js",
-    "runtime-main.js.map": "/static/js/runtime-main.26d94c73.js.map",
-    "static/css/2.78afd4a5.chunk.css": "/static/css/2.78afd4a5.chunk.css",
-    "static/js/2.0a3a73ad.chunk.js": "/static/js/2.0a3a73ad.chunk.js",
-    "static/js/2.0a3a73ad.chunk.js.map": "/static/js/2.0a3a73ad.chunk.js.map",
-    "static/js/3.c00d5e92.chunk.js": "/static/js/3.c00d5e92.chunk.js",
-    "static/js/3.c00d5e92.chunk.js.map": "/static/js/3.c00d5e92.chunk.js.map",
+    "main.css": "/static/css/main.b13d688a.chunk.css",
+    "main.js": "/static/js/main.ac8e7f8e.chunk.js",
+    "main.js.map": "/static/js/main.ac8e7f8e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.93a9e011.js",
+    "runtime-main.js.map": "/static/js/runtime-main.93a9e011.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.2e8c7532.chunk.js": "/static/js/2.2e8c7532.chunk.js",
+    "static/js/2.2e8c7532.chunk.js.map": "/static/js/2.2e8c7532.chunk.js.map",
+    "static/js/3.1320991d.chunk.js": "/static/js/3.1320991d.chunk.js",
+    "static/js/3.1320991d.chunk.js.map": "/static/js/3.1320991d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.78afd4a5.chunk.css.map": "/static/css/2.78afd4a5.chunk.css.map",
-    "static/css/main.716d6dd0.chunk.css.map": "/static/css/main.716d6dd0.chunk.css.map",
-    "static/js/2.0a3a73ad.chunk.js.LICENSE.txt": "/static/js/2.0a3a73ad.chunk.js.LICENSE.txt",
+    "static/css/2.0a9ec390.chunk.css.map": "/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.b13d688a.chunk.css.map": "/static/css/main.b13d688a.chunk.css.map",
+    "static/js/2.2e8c7532.chunk.js.LICENSE.txt": "/static/js/2.2e8c7532.chunk.js.LICENSE.txt",
     "static/media/gabriela.a30c7ef9.png": "/static/media/gabriela.a30c7ef9.png",
     "static/media/livia.cd07f7fe.png": "/static/media/livia.cd07f7fe.png",
     "static/media/logo3.8729c32a.png": "/static/media/logo3.8729c32a.png",
     "static/media/newlogo.a61e7210.png": "/static/media/newlogo.a61e7210.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.26d94c73.js",
-    "static/css/2.78afd4a5.chunk.css",
-    "static/js/2.0a3a73ad.chunk.js",
-    "static/css/main.716d6dd0.chunk.css",
-    "static/js/main.3d9e93c9.chunk.js"
+    "static/js/runtime-main.93a9e011.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.2e8c7532.chunk.js",
+    "static/css/main.b13d688a.chunk.css",
+    "static/js/main.ac8e7f8e.chunk.js"
   ]
 }
